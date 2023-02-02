@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		871547BC296E701000AF4AB7 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871547BB296E701000AF4AB7 /* StringExtensions.swift */; };
+		871547BE296E914100AF4AB7 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871547BD296E914000AF4AB7 /* UserManager.swift */; };
+		871547C0296E972C00AF4AB7 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871547BF296E972C00AF4AB7 /* UserDetails.swift */; };
+		871547C72970075700AF4AB7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871547C62970075600AF4AB7 /* HomeView.swift */; };
+		871EB5C0296C1C390089DC0D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871EB5BF296C1C380089DC0D /* Utilities.swift */; };
+		87838132297057A3001DEA2F /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87838131297057A3001DEA2F /* ViewExtensions.swift */; };
+		8783813E29713948001DEA2F /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783813D29713948001DEA2F /* TeamsView.swift */; };
+		8783814029713958001DEA2F /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783813F29713958001DEA2F /* EventsView.swift */; };
+		8783814229713966001DEA2F /* PaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783814129713966001DEA2F /* PaymentsView.swift */; };
+		8783814429713970001DEA2F /* ExamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783814329713970001DEA2F /* ExamsView.swift */; };
+		878381462971397C001DEA2F /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878381452971397C001DEA2F /* CourseView.swift */; };
+		87838149297537BF001DEA2F /* ExamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87838148297537BE001DEA2F /* ExamsModel.swift */; };
+		8783814B29753A27001DEA2F /* ExamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783814A29753A27001DEA2F /* ExamRow.swift */; };
+		8783814F2977B68A001DEA2F /* ExamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783814E2977B689001DEA2F /* ExamDetailView.swift */; };
+		878C568229781ED500B53995 /* ExamRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878C568129781ED500B53995 /* ExamRegistrationView.swift */; };
+		87A977A1297037AF00001DA7 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A977A0297037AF00001DA7 /* ColorExtensions.swift */; };
+		87B91FA329682AB3008CD7C5 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B91FA229682AB3008CD7C5 /* RegistrationView.swift */; };
+		87C45828298142C500B4D164 /* ProfileDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C45827298142C500B4D164 /* ProfileDetailsView.swift */; };
+		87DD83C6297FDD800086EDCB /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD83C5297FDD800086EDCB /* Triangle.swift */; };
+		87E115452966D91E00944524 /* GeotheLearningCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E115442966D91E00944524 /* GeotheLearningCloneApp.swift */; };
+		87E115472966D91E00944524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E115462966D91E00944524 /* ContentView.swift */; };
+		87E115492966D92200944524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E115482966D92200944524 /* Assets.xcassets */; };
+		87E1154C2966D92200944524 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E1154B2966D92200944524 /* Preview Assets.xcassets */; };
+		87E1155C2966E8ED00944524 /* GothicA1-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E115532966E8ED00944524 /* GothicA1-Black.ttf */; };
+		87E1155D2966E8ED00944524 /* GothicA1-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E115542966E8ED00944524 /* GothicA1-ExtraLight.ttf */; };
+		87E1155E2966E8ED00944524 /* GothicA1-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E115552966E8ED00944524 /* GothicA1-ExtraBold.ttf */; };
+		87E1155F2966E8ED00944524 /* GothicA1-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E115562966E8ED00944524 /* GothicA1-Thin.ttf */; };
+		87E115602966E8ED00944524 /* GothicA1-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E115572966E8ED00944524 /* GothicA1-Medium.ttf */; };
+		87E115612966E8ED00944524 /* GothicA1-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E115582966E8ED00944524 /* GothicA1-Light.ttf */; };
+		87E115622966E8ED00944524 /* GothicA1-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E115592966E8ED00944524 /* GothicA1-Regular.ttf */; };
+		87E115632966E8ED00944524 /* GothicA1-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E1155A2966E8ED00944524 /* GothicA1-Bold.ttf */; };
+		87E115642966E8ED00944524 /* GothicA1-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E1155B2966E8ED00944524 /* GothicA1-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		871547BB296E701000AF4AB7 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		871547BD296E914000AF4AB7 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		871547BF296E972C00AF4AB7 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		871547C62970075600AF4AB7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		871EB5BF296C1C380089DC0D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		87838131297057A3001DEA2F /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		8783813D29713948001DEA2F /* TeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
+		8783813F29713958001DEA2F /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		8783814129713966001DEA2F /* PaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsView.swift; sourceTree = "<group>"; };
+		8783814329713970001DEA2F /* ExamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsView.swift; sourceTree = "<group>"; };
+		878381452971397C001DEA2F /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		87838148297537BE001DEA2F /* ExamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsModel.swift; sourceTree = "<group>"; };
+		8783814A29753A27001DEA2F /* ExamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamRow.swift; sourceTree = "<group>"; };
+		8783814E2977B689001DEA2F /* ExamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamDetailView.swift; sourceTree = "<group>"; };
+		878C568129781ED500B53995 /* ExamRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamRegistrationView.swift; sourceTree = "<group>"; };
+		87A977A0297037AF00001DA7 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		87B91FA229682AB3008CD7C5 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		87C45827298142C500B4D164 /* ProfileDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsView.swift; sourceTree = "<group>"; };
+		87DD83C5297FDD800086EDCB /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		87E115412966D91E00944524 /* GeotheLearningClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeotheLearningClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E115442966D91E00944524 /* GeotheLearningCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeotheLearningCloneApp.swift; sourceTree = "<group>"; };
+		87E115462966D91E00944524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87E115482966D92200944524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87E1154B2966D92200944524 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87E115532966E8ED00944524 /* GothicA1-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothicA1-Black.ttf"; sourceTree = "<group>"; };
+		87E115542966E8ED00944524 /* GothicA1-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothicA1-ExtraLight.ttf"; sourceTree = "<group>"; };
+		87E115552966E8ED00944524 /* GothicA1-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothicA1-ExtraBold.ttf"; sourceTree = "<group>"; };
+		87E115562966E8ED00944524 /* GothicA1-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothicA1-Thin.ttf"; sourceTree = "<group>"; };
+		87E115572966E8ED00944524 /* GothicA1-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothicA1-Medium.ttf"; sourceTree = "<group>"; };
+		87E115582966E8ED00944524 /* GothicA1-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothicA1-Light.ttf"; sourceTree = "<group>"; };
+		87E115592966E8ED00944524 /* GothicA1-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothicA1-Regular.ttf"; sourceTree = "<group>"; };
+		87E1155A2966E8ED00944524 /* GothicA1-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothicA1-Bold.ttf"; sourceTree = "<group>"; };
+		87E1155B2966E8ED00944524 /* GothicA1-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothicA1-SemiBold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87E1153E2966D91E00944524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		871547BA296E6FFA00AF4AB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				871547BB296E701000AF4AB7 /* StringExtensions.swift */,
+				87A977A0297037AF00001DA7 /* ColorExtensions.swift */,
+				87838131297057A3001DEA2F /* ViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		871547C1296E973000AF4AB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				871547BF296E972C00AF4AB7 /* UserDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		871547C2296E973A00AF4AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87B91FA229682AB3008CD7C5 /* RegistrationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		871547C3296E974B00AF4AB7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		871547C42970072700AF4AB7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				871547C52970073D00AF4AB7 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		871547C52970073D00AF4AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				871547C62970075600AF4AB7 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		871547C8297007D100AF4AB7 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				87DD83C5297FDD800086EDCB /* Triangle.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		871EB5BE296C1C0F0089DC0D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				871EB5BF296C1C380089DC0D /* Utilities.swift */,
+				871547BD296E914000AF4AB7 /* UserManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		87838133297138F9001DEA2F /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				8783813C29713936001DEA2F /* View */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		8783813429713902001DEA2F /* Exams */ = {
+			isa = PBXGroup;
+			children = (
+				8783814729753785001DEA2F /* Model */,
+				8783813B2971392B001DEA2F /* View */,
+			);
+			path = Exams;
+			sourceTree = "<group>";
+		};
+		8783813529713907001DEA2F /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				8783813A29713926001DEA2F /* View */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
+		878381362971390E001DEA2F /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				8783813929713921001DEA2F /* View */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		8783813729713914001DEA2F /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				878381382971391B001DEA2F /* View */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		878381382971391B001DEA2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8783813D29713948001DEA2F /* TeamsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8783813929713921001DEA2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8783813F29713958001DEA2F /* EventsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8783813A29713926001DEA2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8783814129713966001DEA2F /* PaymentsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8783813B2971392B001DEA2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8783814329713970001DEA2F /* ExamsView.swift */,
+				8783814A29753A27001DEA2F /* ExamRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8783813C29713936001DEA2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				878381452971397C001DEA2F /* CourseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8783814729753785001DEA2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87838148297537BE001DEA2F /* ExamsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8783814C2977B663001DEA2F /* ExamDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8783814D2977B673001DEA2F /* View */,
+			);
+			path = ExamDetail;
+			sourceTree = "<group>";
+		};
+		8783814D2977B673001DEA2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8783814E2977B689001DEA2F /* ExamDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		878C567F29781EA400B53995 /* ExamRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				878C568029781EB400B53995 /* View */,
+			);
+			path = ExamRegistration;
+			sourceTree = "<group>";
+		};
+		878C568029781EB400B53995 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				878C568129781ED500B53995 /* ExamRegistrationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87B91FA029682A74008CD7C5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				87E115462966D91E00944524 /* ContentView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		87B91FA129682A80008CD7C5 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				871547C1296E973000AF4AB7 /* Model */,
+				871547C2296E973A00AF4AB7 /* View */,
+				871547C3296E974B00AF4AB7 /* ViewModel */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		87C458252981416F00B4D164 /* ProfileDetails */ = {
+			isa = PBXGroup;
+			children = (
+				87C45826298142AE00B4D164 /* View */,
+			);
+			path = ProfileDetails;
+			sourceTree = "<group>";
+		};
+		87C45826298142AE00B4D164 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87C45827298142C500B4D164 /* ProfileDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87E115382966D91E00944524 = {
+			isa = PBXGroup;
+			children = (
+				87E115432966D91E00944524 /* GeotheLearningClone */,
+				87E115422966D91E00944524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87E115422966D91E00944524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87E115412966D91E00944524 /* GeotheLearningClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E115432966D91E00944524 /* GeotheLearningClone */ = {
+			isa = PBXGroup;
+			children = (
+				87C458252981416F00B4D164 /* ProfileDetails */,
+				878C567F29781EA400B53995 /* ExamRegistration */,
+				8783814C2977B663001DEA2F /* ExamDetail */,
+				871547C8297007D100AF4AB7 /* ReusableViews */,
+				871547BA296E6FFA00AF4AB7 /* Extensions */,
+				871EB5BE296C1C0F0089DC0D /* Utilities */,
+				871547C42970072700AF4AB7 /* Home */,
+				87838133297138F9001DEA2F /* Course */,
+				8783813429713902001DEA2F /* Exams */,
+				8783813529713907001DEA2F /* Payments */,
+				878381362971390E001DEA2F /* Events */,
+				8783813729713914001DEA2F /* Teams */,
+				87B91FA129682A80008CD7C5 /* Register */,
+				87B91FA029682A74008CD7C5 /* Login */,
+				87E115522966E8BB00944524 /* Fonts */,
+				87E115442966D91E00944524 /* GeotheLearningCloneApp.swift */,
+				87E115482966D92200944524 /* Assets.xcassets */,
+				87E1154A2966D92200944524 /* Preview Content */,
+			);
+			path = GeotheLearningClone;
+			sourceTree = "<group>";
+		};
+		87E1154A2966D92200944524 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87E1154B2966D92200944524 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87E115522966E8BB00944524 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				87E115532966E8ED00944524 /* GothicA1-Black.ttf */,
+				87E1155A2966E8ED00944524 /* GothicA1-Bold.ttf */,
+				87E115552966E8ED00944524 /* GothicA1-ExtraBold.ttf */,
+				87E115542966E8ED00944524 /* GothicA1-ExtraLight.ttf */,
+				87E115582966E8ED00944524 /* GothicA1-Light.ttf */,
+				87E115572966E8ED00944524 /* GothicA1-Medium.ttf */,
+				87E115592966E8ED00944524 /* GothicA1-Regular.ttf */,
+				87E1155B2966E8ED00944524 /* GothicA1-SemiBold.ttf */,
+				87E115562966E8ED00944524 /* GothicA1-Thin.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87E115402966D91E00944524 /* GeotheLearningClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E1154F2966D92200944524 /* Build configuration list for PBXNativeTarget "GeotheLearningClone" */;
+			buildPhases = (
+				87E1153D2966D91E00944524 /* Sources */,
+				87E1153E2966D91E00944524 /* Frameworks */,
+				87E1153F2966D91E00944524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeotheLearningClone;
+			productName = GeotheLearningClone;
+			productReference = 87E115412966D91E00944524 /* GeotheLearningClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87E115392966D91E00944524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					87E115402966D91E00944524 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 87E1153C2966D91E00944524 /* Build configuration list for PBXProject "GeotheLearningClone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87E115382966D91E00944524;
+			productRefGroup = 87E115422966D91E00944524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87E115402966D91E00944524 /* GeotheLearningClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87E1153F2966D91E00944524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E1155E2966E8ED00944524 /* GothicA1-ExtraBold.ttf in Resources */,
+				87E1155F2966E8ED00944524 /* GothicA1-Thin.ttf in Resources */,
+				87E115642966E8ED00944524 /* GothicA1-SemiBold.ttf in Resources */,
+				87E115602966E8ED00944524 /* GothicA1-Medium.ttf in Resources */,
+				87E115612966E8ED00944524 /* GothicA1-Light.ttf in Resources */,
+				87E1155D2966E8ED00944524 /* GothicA1-ExtraLight.ttf in Resources */,
+				87E115622966E8ED00944524 /* GothicA1-Regular.ttf in Resources */,
+				87E1154C2966D92200944524 /* Preview Assets.xcassets in Resources */,
+				87E115492966D92200944524 /* Assets.xcassets in Resources */,
+				87E1155C2966E8ED00944524 /* GothicA1-Black.ttf in Resources */,
+				87E115632966E8ED00944524 /* GothicA1-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87E1153D2966D91E00944524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871547BE296E914100AF4AB7 /* UserManager.swift in Sources */,
+				87B91FA329682AB3008CD7C5 /* RegistrationView.swift in Sources */,
+				878381462971397C001DEA2F /* CourseView.swift in Sources */,
+				87E115472966D91E00944524 /* ContentView.swift in Sources */,
+				87A977A1297037AF00001DA7 /* ColorExtensions.swift in Sources */,
+				87838132297057A3001DEA2F /* ViewExtensions.swift in Sources */,
+				871547BC296E701000AF4AB7 /* StringExtensions.swift in Sources */,
+				871547C0296E972C00AF4AB7 /* UserDetails.swift in Sources */,
+				8783814229713966001DEA2F /* PaymentsView.swift in Sources */,
+				878C568229781ED500B53995 /* ExamRegistrationView.swift in Sources */,
+				8783813E29713948001DEA2F /* TeamsView.swift in Sources */,
+				87838149297537BF001DEA2F /* ExamsModel.swift in Sources */,
+				87DD83C6297FDD800086EDCB /* Triangle.swift in Sources */,
+				871547C72970075700AF4AB7 /* HomeView.swift in Sources */,
+				8783814F2977B68A001DEA2F /* ExamDetailView.swift in Sources */,
+				871EB5C0296C1C390089DC0D /* Utilities.swift in Sources */,
+				8783814B29753A27001DEA2F /* ExamRow.swift in Sources */,
+				8783814429713970001DEA2F /* ExamsView.swift in Sources */,
+				87C45828298142C500B4D164 /* ProfileDetailsView.swift in Sources */,
+				87E115452966D91E00944524 /* GeotheLearningCloneApp.swift in Sources */,
+				8783814029713958001DEA2F /* EventsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		87E1154D2966D92200944524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87E1154E2966D92200944524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87E115502966D92200944524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeotheLearningClone/Preview Content\"";
+				DEVELOPMENT_TEAM = P64F89AH42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.com.GeotheLearningClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87E115512966D92200944524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeotheLearningClone/Preview Content\"";
+				DEVELOPMENT_TEAM = P64F89AH42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.com.GeotheLearningClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87E1153C2966D91E00944524 /* Build configuration list for PBXProject "GeotheLearningClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E1154D2966D92200944524 /* Debug */,
+				87E1154E2966D92200944524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E1154F2966D92200944524 /* Build configuration list for PBXNativeTarget "GeotheLearningClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E115502966D92200944524 /* Debug */,
+				87E115512966D92200944524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87E115392966D91E00944524 /* Project object */;
+}
